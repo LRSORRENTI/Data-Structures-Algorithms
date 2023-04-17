@@ -59,4 +59,6 @@ the parts of code that are inefficient can help
 identify the bottlenecks, and areas where code isn't 
 as efficient as it could be 
 
-dsf
+Often in interviews, an interviewer may ask "What's 
+the Big O of this given algorithm", understanding 
+Big O is a fundamental concept in programming 
