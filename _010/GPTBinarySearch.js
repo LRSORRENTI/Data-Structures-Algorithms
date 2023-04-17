@@ -76,11 +76,11 @@ function binarySearch(objArr: Record<string, any>[], targetKey: string): any {
   
   // Example usage
   const objArr = [
-    { key1: 'value1', key2: 'value2' },
-    { key1: 'value3', key2: 'value4' },
-    { key1: 'value5', key2: 'value6' },
-    { key1: 'value7', key2: 'value8' },
-    { key1: 'value9', key2: 'value10' },
+    { food: 'kiwi', color: 'lime green' },
+    { music: 'jazz', isCool: 'yes' },
+    { dogs: 'Are awesome', key2: true },
+    { cats: 'are noble', key2: true },
+    { fish: 'Salmon', omega3: true },
   ];
   const targetKey = 'key2';
   const value = binarySearch(objArr, targetKey);

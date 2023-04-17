@@ -38,3 +38,48 @@ function binarySearch(arr: number[], target: number): number {
   const index = binarySearch(arr, target);
   console.log(index); // Output: 2
   
+  /**
+ * Performs a binary search on a sorted array of objects to find a key-value pair and extract its value.
+ * @param arr The sorted array of objects to search.
+ * @param targetKey The key of the key-value pair to find.
+ * @returns The value of the key-value pair, or null if it is not found.
+ */
+function binarySearchObj(objArr: Record<string, any>[], targetKey: string): any {
+  // Initialize left and right pointers to start and end of array, respectively.
+  let left = 0;
+  let right = objArr.length - 1;
+
+  // While the left pointer is less than or equal to the right pointer...
+  while (left <= right) {
+    // Calculate the midpoint of the search interval.
+    const mid = Math.floor((left + right) / 2);
+
+    // If the midpoint object has the target key, extract its value and return it.
+    if (objArr[mid].hasOwnProperty(targetKey)) {
+      return objArr[mid][targetKey];
+    }
+    // If the midpoint object's key is less than the target key, discard the left half of the search interval.
+    else if (objArr[mid][targetKey] < targetKey) {
+      left = mid + 1;
+    }
+    // If the midpoint object's key is greater than the target key, discard the right half of the search interval.
+    else {
+      right = mid - 1;
+    }
+  }
+
+  // If the target key is not found, return null.
+  return null;
+}
+
+// Example usage
+const objArr = [
+  { key1: 'value1', key2: 'value2' },
+  { key1: 'value3', key2: 'value4' },
+  { key1: 'value5', key2: 'value6' },
+  { key1: 'value7', key2: 'value8' },
+  { key1: 'value9', key2: 'value10' },
+];
+const targetKey = 'key2';
+const value = binarySearchObj(objArr, targetKey);
+console.log(value); // Output: "value2"
