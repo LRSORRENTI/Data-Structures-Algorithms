@@ -1,0 +1,62 @@
+==============
+BIG O NOTATION
+==============
+
+Objectives: 
+
+1. Why the need for Big O NOTATION
+
+2. What is Big O NOTATION
+
+3. Simplify Big O NOTATION
+
+4. Define "time complexity" and "space complexity"
+
+5. Evaluate time and space complexity of different 
+algorithms using Big O NOTATION
+
+6. Describe what a logarithm is 
+
+=====================================================
+
+What's the main idea? 
+
+Well imagine we have three solutions for 
+solving a problem, one solution is done using a loop. 
+Another using a list, and the last using a string, which 
+is best? How do we find out which is the best solution?
+
+That's what Big O is about, it helps compare code 
+performance 
+
+And depending on the situation, we should pick the 
+solution that offers well rounded performance, big O 
+is one way that helps us view the efficiency of code 
+compared to one another, assuming each snippet is 
+accomplishing the same task, just implemented in 
+different ways 
+
+For example, if we're working with a gigantic codebase 
+or data set, using an algorithm that's the most efficient 
+will save a huge amount of time in the long run 
+
+Performance really does matter 
+
+And there will be a best solution, and we can measure 
+and test these solutions to determine which one 
+actually is best 
+
+This is why we need a precise vocabulary to talk 
+about code performance
+
+It's also useful for discussing trade-offs for 
+different solutions, there's not always an immediate 
+clear winner, there are nuances and grey-area variables 
+that can muddy the waters 
+
+When your code slows down or crashes, identifying 
+the parts of code that are inefficient can help 
+identify the bottlenecks, and areas where code isn't 
+as efficient as it could be 
+
+dsf
