@@ -1,0 +1,15 @@
+Just a note, I'm having difficulty setting up the 
+tsconfig so that it auto outDir's any compiled 
+TS to JS files into the dist directory
+
+The command I'm using to do this since I can get 
+tsc typescriptfile.ts to auto compile into dist
+(Work on that config later)
+
+Is: 
+
+tsc myTSFile.ts --outDir ../dist 
+
+the double dot is needed to escape out of the 
+current directory, then it will auto-compile into 
+dist 
