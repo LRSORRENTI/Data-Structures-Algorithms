@@ -2,7 +2,7 @@
 // calculate the sum of all numbers from 1 
 // up to, and including some number n
 
- export function addUpTwo(num: number): number{
+ export function addUpToAgain(num: number): number{
     let total: number = 0;
     for(let i = 0; i <= num; i++){
         total += i;
@@ -10,8 +10,8 @@
     console.log(total)
     return total;
 }
-addUpTwo(6)
-addUpTwo(100)
+addUpToAgain(6)
+addUpToAgain(100)
 
 // So that's one solution, another solution is: 
 
@@ -33,7 +33,7 @@ export function addUpTo(n: number): number{
 }
 
 addUpTo(6)
-addUpTo(100)
+addUpToAgain(100)
 
 // The main thing we're trying to do is timing these 
 // is which version is better? 
@@ -73,3 +73,37 @@ let t1 = performance.now();
 addUpTo(100000000);
 let t2 = performance.now();
 console.log(`Time elapsed: ${(t2 - t1)} seconds `)
+
+// 5050
+// 21
+// 5050
+// 5000000050000000
+// Time elapsed: 0.2107999324798584 seconds
+
+/* 
+This approach where we time things before and after 
+then comparing it to the other function
+
+It's not that easy to talk about, there are 
+better ways of talking about how performance wise 
+one piece of code compares to another
+
+Which brings us to the problem with time:
+
+- Different machines will record different times 
+
+- The same machine will record different times!
+
+- For very fast algorithms, speed measurements alone
+  may not be precise enough
+
+  So how do we accomplish this? 
+
+  Well there are other ways to measure performance, 
+  we can assign a value based on how code compares 
+  to other code 
+
+  This is where Big O Notation comes into play
+
+
+*/
