@@ -1,0 +1,6 @@
+https://rithmschool.github.io/function-timer-demo/
+
+There's a website where Colt displayed how to plot 
+time complexity, the solution implementing the 
+loop is significantly slower, versus the solution 
+where we are only implementing 3 operations
