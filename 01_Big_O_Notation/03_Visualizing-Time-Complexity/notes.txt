@@ -4,3 +4,55 @@ There's a website where Colt displayed how to plot
 time complexity, the solution implementing the 
 loop is significantly slower, versus the solution 
 where we are only implementing 3 operations
+
+The main takeaway is that this version: 
+
+function addUpFirst(n){
+    var total = 0;
+    for(i = 0; i <= n; i++){
+        total += i;
+    }
+    return total
+}
+
+Is significantly slower than: 
+
+function improvedAddUp(n){
+    return n * (n + 1) / 2;
+}
+
+The reason why improvedAddUp is significantly
+ faster than addUpFirst is because
+  improvedAddUp uses a closed-form mathematical
+   formula to compute the sum of the first 
+   n natural numbers, while addUpFirst uses a 
+   loop to iterate over each number 
+   from 0 to n and adds it to a running total.
+
+The closed-form formula used by improvedAddUp
+ is known as the "Gauss's formula" or the 
+ "sum of an arithmetic series" formula, which is:
+
+1 + 2 + 3 + ... + n = n * (n + 1) / 2
+
+This formula directly computes the 
+sum of the first n natural numbers 
+without iterating over each number 
+one by one.
+
+ Therefore, it can compute the sum
+  much faster than a loop-based solution 
+  like addUpFirst, especially when n is large.
+
+In contrast, addUpFirst needs 
+to iterate over each number from 0 to n 
+and perform an addition operation at
+ each step, which can become slow for 
+ larger values of n.
+
+Therefore, if you need to compute 
+the sum of the first n natural numbers
+ in your program, it's recommended 
+ to use the closed-form formula used by
+  improvedAddUp instead of a loop-based
+   solution like addUpFirst for better performance.
