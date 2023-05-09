@@ -1,0 +1,30 @@
+Question 1:
+Simplify the big O expression as much as 
+possible - O(n + 10) 
+
+A: O(n) 
+
+Question 2:
+Simplify the big O expression
+ as much as possible - O(100 * n) 
+
+ A: O(n)
+
+Question 3:
+Simply the following big O expression
+ as much as possible - O(25) 
+
+ A: O(1)
+
+
+Question 4:
+Simply the following big O expression
+ as much as possible -  O(n^2 + n^3) 
+
+ A: O(n^3)
+
+ Question: 5:
+Simply the following big O expression
+ as much as possible - O(n + n + n + n) 
+
+ O(n)
