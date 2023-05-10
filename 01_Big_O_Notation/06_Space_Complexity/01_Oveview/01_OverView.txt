@@ -1,0 +1,51 @@
+================
+SPACE COMPLEXITY
+================
+
+Thus far, we've only been concerned with 
+time, how fast a given algo is compared to 
+another, that's time complexity, analyzing the 
+run time of an algo as the input size increases
+
+We can still utilize Big O for space complexity:
+How much additional memory do we need to allocate 
+in order to run the code inside our algorithm?
+
+``````````````````
+What about inputs?
+
+``````````````````
+
+Remember, as n grows, the size of the input 
+grows, we'll ignore that 
+
+But you'll often hear the term auxiliary space complexity
+to refer to space required by the algo only, 
+not including the space taken up by the inputs 
+
+That's what we care about the algorithm itself
+
+As n grows, what repercussions can we infer inside 
+the algorithm itself? 
+
+``````````````````````
+SPACE COMPLEXITY IN JS 
+
+Rules of thunb:
+
+``````````````````````
+
+* Most primitives (booleans, numbers, undefined null)
+ are constant space, it doesn't matter if a number is 
+ 1 or 25,000, doesn't matter if true or false, they are 
+ considered constant space 
+
+* Strings are different, they require O(n) space 
+  where n is the string length, if a string grows to 
+  50 characters, the string takes up 50 times more space 
+
+*  Reference types are generally O(n), arrays and 
+   Objects, where n is the length of an array, and 
+   n is the number of keys in an object, so if one array 
+   length is 2, and one is 4, the array.length of 4 takes 
+   up twice as much space as the array with 2 values
