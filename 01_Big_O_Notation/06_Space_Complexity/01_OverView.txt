@@ -1,0 +1,26 @@
+================
+SPACE COMPLEXITY
+================
+
+Thus far, we've only been concerned with 
+time, how fast a given algo is compared to 
+another, that's time complexity, analyzing the 
+run time of an algo as the input size increases
+
+We can still utilize Big O for space complexity:
+How much additional memory do we need to allocate 
+in order to run the code inside our algorithm?
+
+``````````````````
+What about inputs?
+
+``````````````````
+
+Remember, as n grows, the size of the input 
+grows, we'll ignore that 
+
+But you'll often hear the term auxiliary space complexity
+to refer to space required by the algo only, 
+not including the space taken up by the inputs 
+
+That's what we care about the algorithm itself
