@@ -29,3 +29,24 @@ This new array takes up space proportional to n, therefore
 our new logUpTo(n) func has a space complexity of O(n)
 */
 
+/*
+Question 2:
+Determine the space complexity for the following function  
+
+function logAtMost10(n) {
+    for (var i = 1; i <= Math.min(n, 10); i++) {
+        console.log(i);
+    }
+}
+
+A: This is O(1) again because we're using a constant 
+size of memory regardless of what n is, we could make 
+it O(1) again by adding an array to push values into
+
+
+
+*/
+
+/*
+
+*/
