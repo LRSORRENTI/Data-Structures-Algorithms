@@ -49,4 +49,43 @@ it O(1) again by adding an array to push values into
 
 /*
 
+Question 3:
+
+
+function onlyElementsAtEvenIndex(array) {
+    var newArray = Array(Math.ceil(array.length / 2));
+    for (var i = 0; i < array.length; i++) {
+        if (i % 2 === 0) {
+            newArray[i / 2] = array[i];
+        }
+    }
+    return newArray;
+}
+
+A: Space complexity of O(n)
+
+The function creates a new array:
+newArray, of size Math.ceil(array.length / 2),
+ which is proportional to the input array
+  size n. Therefore, the space complexity of
+   creating newArray is O(n).
+
+In the for loop, the function accesses 
+each element of the input array and 
+copies every second element to the newArray.
+
+Since the newArray has n/2 elements, 
+the space complexity of copying every 
+second element from the input array to 
+newArray is also O(n).
+
+Therefore, the total space complexity 
+of the function is the sum of the space 
+required to store newArray and the space
+required to copy every second element
+ from the input array to newArray. 
+ 
+ This results in a space complexity of O(n).
+
+
 */
