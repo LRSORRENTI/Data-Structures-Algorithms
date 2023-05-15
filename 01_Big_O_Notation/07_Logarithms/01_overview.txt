@@ -2,3 +2,27 @@
 LOGARITHMS AND SECTION RECAP
 
 ````````````````````````````
+
+Something to keep in mind is that the Big O
+we've measured so far have been common 
+complexities, O(1), O(n), O(n^2)
+
+But Big O is often very complex, requiring 
+more involved mathematical expressions
+
+One that appears very often is the LOGARITHM
+
+This is because ofen times, algo's will be 
+O(log n) not just O(n)
+
+=============================================
+
+LOGARITHMS ARE THE INVERSE OF EXPONENTIATION!
+
+=============================================
+
+Just like division and multiplication are 
+brothers, or go hand in hand, so are LOGARITHMS 
+and ALGORITHMS
+
+log₂(8) = 3 or log2(8) = 3
