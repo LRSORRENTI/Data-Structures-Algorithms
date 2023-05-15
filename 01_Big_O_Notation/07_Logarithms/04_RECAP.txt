@@ -1,0 +1,29 @@
+=============
+SECTION RECAP
+=============
+
+1. To analyze performance of an algorithm we
+utilize Big O notation
+
+2. Big O gives us a high level understanding 
+of the time or space complexity of an algorithm
+
+3. Big O doesn't care about precision, only 
+the general trend on a graph, is it linear, 
+constant, or quadratic?
+
+4. Time and space complexity measured by Big O
+depends on the algorithm, not the hardware used 
+to run the algorithm
+
+5. Big O is everywhere, it's the one that's 
+referenced often in regards to time and space 
+complexity of algorithms
+
+=========================
+BIG O WILL REMAIN WITH US
+FOR THE ENTIRETY OF THE 
+COURSE SO THERE'LL
+BE PLENTY OF TIME TO 
+PRACTICE!
+==========================
