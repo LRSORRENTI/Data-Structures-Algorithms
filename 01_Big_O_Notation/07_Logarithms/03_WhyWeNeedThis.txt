@@ -1,0 +1,25 @@
+===================
+WHY THIS IS CRUCIAL
+===================
+
+In this course, we'll learn 
+searching ALGORITHMS, and it's 
+IMPORTANT to be able to instantly 
+know: 
+
+Ok this is O(1) or O(log n) it's very fast!
+
+This one is O(n) or (nlog n) it's not very fast!
+
+And efficient sorting algorithms involve LOGARITHMS
+
+And Recursion (function calling itself until base case)
+also involve log space complexity
+
+
+Just remember the chart! O(n) is slower than 
+O(log n) 
+
+And O(log n) is slower than O(1)
+
+But all are faster than quadratic!

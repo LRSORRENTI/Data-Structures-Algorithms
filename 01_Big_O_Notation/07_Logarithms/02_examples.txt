@@ -1,0 +1,43 @@
+============
+LOG EXAMPLES
+============
+
+If we have: 8, divide by 2 is still > 1
+            4, divide by 2 is still > 1
+            2, divide by 2 we reach 1
+
+So log(8) = 3
+
+But log(25) would be: 
+                    25 / 2 
+                    12.5 / 2 > 1
+                    6.25 / 2 > 1
+                    3.125 > 1
+                    1.562 > 1
+                    somewhere in here
+                    0.7 < 1
+So log(25) = 4.64
+
+What matters most is the complexity, 
+log time complexity is great!
+
+If we look at a chart, if we have a big O 
+with O(log n) it's good!
+
+Just slightly above O(1) but nothing compared to 
+O(n) or quadratic O(n^2)
+
+An algo with O(log n) time complexity is very good!
+
+`````````````````````````````````````````
+THE MAIN TAKEAWAY, IN THIS COURSE WE NEED 
+TO BE ABLE TO KNOW RIGHT AWAY IF WE SEE 
+SOMETHING THAT'S O(n) or O(log n) AND KNOW
+IMMEDIATELY WHICH IS SUPERIOR, THAT'S WHY 
+KNOWING THE TIME COMPLEXITY IS IMPORTANT!
+
+AND O(nlog n) != O(log n) 
+
+O(nlog n) is much slower!
+
+`````````````````````````````````````````
