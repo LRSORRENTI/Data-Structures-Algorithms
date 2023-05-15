@@ -26,3 +26,38 @@ brothers, or go hand in hand, so are LOGARITHMS
 and ALGORITHMS
 
 log₂(8) = 3 or log2(8) = 3
+
+2 * 2 * 2 gives us 8, so log₂(8) = 3
+
+2 cubed = 8
+
+log₂(value) = exponent ----> 2exponent = value
+
+Some other common ones are log10, and log e
+
+But for the purposes of learning we're going to 
+solely focus on log by itself
+
+If we're comparing a constant time and a quadratic 
+time, it doesn't matter if it's log base 2, log base 3
+or log base 10, it's going to be the general trend 
+we're concerned with 
+
+But to be clear, log on it's own is NOT a mathematical
+operation on it's own, you can't just take the log 
+of any number, it requires a base 
+
+Usually always need to say log2, log10
+
+==========================
+THIS IS NOT A MATH COURSE!
+
+SO AS A RULE OF THUMB:
+
+The log of a number roughly
+measures the number of times 
+you can divide that number by 
+2 BEFORE YOU GET A VALUE 
+THAT'S LESS OR EQUAL TO 1
+
+==========================
