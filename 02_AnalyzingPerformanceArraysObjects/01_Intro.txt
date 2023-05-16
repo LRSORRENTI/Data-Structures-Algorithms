@@ -1,0 +1,32 @@
+``````````````````````````
+ANALYZING THE PERFORMANCE 
+OF ARRAYS AND OBJECTS
+
+``````````````````````````
+
+Now that we've covered Big O, remember O(1), and 
+O(log n) are very good!
+
+In this section we're going to learn which methods 
+might be more advantageous over another, and in which 
+circumstances, we'll also look at the Big O of 
+objects and arrays, and their performance
+
+``````````
+OBJECTIVES
+
+``````````
+
+- Understand how objects and arrays work through 
+  lens of Big O 
+
+- Learn why adding elements to the start / beginning
+  of an array is costly
+
+- Compare and contrast run times for arrays and objects 
+  as well as built-in methods, that way we can see 
+  how simpler methods perform before getting into 
+  more complex algorithms
+
+
+

@@ -1,3 +1,12 @@
+````````````````````````````````
+NOTE: I added the global ts-node
+command for quickly running TS 
+code: ts-node myFile.ts 
+
+````````````````````````````````
+
+
+
 Just a note, I'm having difficulty setting up the 
 tsconfig so that it auto outDir's any compiled 
 TS to JS files into the dist directory
