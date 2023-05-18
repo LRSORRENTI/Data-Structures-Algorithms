@@ -1,0 +1,88 @@
+============================
+UNDERSTAND THE PROBLEM FIRST
+============================
+
+As a quick note, many of these techniques 
+are noted in George Polya's 'How To Solve It' 
+book, a great resource for anyone interested in 
+how these problem solving techniques are developed 
+at a ground level, it's more slanted towards 
+mathematics, but it's an excellent resource 
+
+Understand the problem fully before spending 
+   time solving it, it's easy to skim over things
+   without fully understanding the problem, there's 
+   nothing worse than spending a half hour trying to solve
+   a problem which you don't fully understand, you'll 
+   waste a lot of time if you don't reflect on the problem
+   and understand the framework and structure of the 
+   problem itself first 
+
+============================================================
+
+For a new developer, one of the most challenging 
+things is learning how to devise your own solutions 
+to complicated problems, often real development
+problems are complex, requiring thought and 
+understanding before tackling them 
+
+============================================================
+
+Here are some guidelines to understand any problem:
+
+1. Restate the problem in your own words 
+
+2. What are the inputs that structure the problem
+
+3. What are the outputs? What are the best case 
+   solutions to this problem? 
+
+4. Can the outputs be determined from the inputs? 
+   Do we have enough information to solve the problem?
+   (This may not be answerable at the beginning setup 
+   stage, but it's important to keep this question
+   on the back-burner when thinking about solving)
+
+5. How should the components that comprise 
+   the problem be categorized? How do we label these 
+   important pieces of data?
+
+============================================================
+
+Let's look at a practice question, someone asks 
+you: 
+
+Write a function that takes two numbers and returns 
+the sum
+
+Let's walk through this problem using the above steps
+
+1. Restate in my own words:
+   
+Okay we need a function that will add up two input 
+parameters and return the sum as an output 
+
+2. What are the inputs that go into the problem? 
+
+We'll have two number inputs passed in as arguments
+these number inputs will need to be added together
+
+3. What are the outputs that come from the solution? 
+
+We need to implement an addition inside the function, 
+that way the output will be returned as the sum of the 
+two input arguments
+
+4. Can the outputs be determined from the inputs? 
+
+We may need to do a type check to make sure that 
+whoever passes in the arguments, only passes in numbers 
+and not any other data type, as long as we have two 
+numbers we have enough info to solve the problem 
+
+5. How to label the important pieces of data? 
+
+We need to label each line of code, what it's doing 
+each step of the way, 
+
+
