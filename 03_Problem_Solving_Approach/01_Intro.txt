@@ -1,0 +1,94 @@
+========================
+PROBLEM SOLVING PATTERNS
+========================
+
+You're faced with a problem, what 
+techniques and approached do you take 
+to solve this problem? 
+
+This section will be split into two 
+categories: 
+
+1. Steps to take when strategizing against a problem
+
+2. Specific blueprints, strategies to keep in your 
+   back pocket when facing challenging problems 
+
+But first
+
+==========
+OBJECTIVES
+==========
+
+- Define what an algorithm is
+
+- Devise plan to solve algorithmic problems 
+
+- Compare / contrast problem solving patterns, 
+  including: 
+              - Frequency Counters
+              
+              - Two Pointer Problems 
+
+              - Divide And Conquer
+
+
+What is an algorithm? 
+
+It's a set of repeatable steps / processes 
+to accomplish a task 
+
+============================================
+
+Why do we need to learn this? 
+
+Almost everything in programming revolves
+ around some kind of algorithm
+
+It's the bedrock foundation for becoming 
+a successful developer, and problem solver 
+
+BUT ALSO INTERVIEWS
+
+Yes this stuff is important to learn, but 
+developer interviews will challenge your 
+knowledge and problem solving capability 
+
+Going into a office building you've never been to,
+and being asked tough questions, questions related 
+to data structures and algorithms
+
+==============================================
+
+How to improve in technical interviews?
+
+1. Devise a problem solving game plan 
+
+2. Practice common problem solving patterns
+
+==============================================
+
+How do we do this? 
+
+1. Understand the problem fully before spending 
+   time solving it, it's easy to skim over things
+   without fully understanding the problem, there's 
+   nothing worse than spending a half hour trying to solve
+   a problem in which you don't fully understand, you'll 
+   waste a lot of time if you don't reflect on the problem
+   and understand the framework and structure of the 
+   problem itself first 
+
+2. Explore concrete examples
+
+3. Chunk the problem, break big problems into smaller 
+   bite size problems 
+
+4. Solve and simplify
+
+5. Reflect and re-factor
+
+Those are the 5 steps for our problem solving recipe, 
+and in the next few lectures we'll go into more detail 
+on each 
+
