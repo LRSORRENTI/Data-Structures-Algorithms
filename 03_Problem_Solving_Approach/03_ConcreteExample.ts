@@ -121,8 +121,10 @@ certain edge cases in more complex code, is crucial
 
 */
 
-export default function charCount(str: string){
+ function charCount(str: string){
     return str;
 }
 // charCount(22)
 // charCount(null)
+
+export default charCount;
