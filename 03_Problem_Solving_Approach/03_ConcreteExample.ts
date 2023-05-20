@@ -128,5 +128,3 @@ certain edge cases in more complex code, is crucial
 // charCount(null)
 
 charCount('hello')
-
-export default charCount;
