@@ -47,6 +47,49 @@ charCount("Your PIN number is 1234!"){
     */
 }
 
+//function charCount(str){
+    // simplest way to start is with: 
+
+    // do something!
+
+    // But our interviewer is asking us to keep track
+    // of all alpha-numeric chars in an inputted string, 
+    // so uppercase 'P' and lowerCase 'p' both count 
+    // towards 'p: 2' 
+//}
+
+// So how would be tackle this problem? 
+
+// What do we need to do? 
+
+// Well we know we need to do something at least 
+// once for every character in the input string
+
+// We also need to keep our counts for each character, 
+// an object would suit us well here 
+
+// So we know we need to identify and count every character
+// then return an object of those char counts
+
+// but the bulk of the logic will come from how 
+// we implement the loop to do the counting 
+
 function charCount(str){
-    
+    // start simple: 
+
+    //maybe do a check 
+    // to make sure user didn't input wrong 
+    // data type, strings only please
+
+   // then: 
+
+    // make object to return at the end: 
+
+    // Then: 
+
+    // loop over str
+
+    // Then: 
+
+    // return object at end here
 }
