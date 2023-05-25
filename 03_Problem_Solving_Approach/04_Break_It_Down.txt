@@ -1,0 +1,31 @@
+=============
+BREAK IT DOWM
+=============
+
+Take the problem and chunk it down, 
+break it into more bite-size manageable 
+chunks 
+
+Explicitly write down the steps you think 
+need to be taken to solve the problem
+
+Often times these may not be the correct 
+steps right off the bat, but that's the point: 
+
+Write these steps down, think about them, why 
+are they needed for the solution, are there 
+better steps? 
+
+Can these steps be morphed into 
+more concise steps? 
+
+Write down the basic components that compose the 
+solution to the problem
+
+This forces you to think about the code you'll 
+write before you write it, and helps you catch 
+any lingering conceptual issues or misunderstandings
+before you dive in and have to worry about the 
+details (e.g. language syntax) as well
+
+
