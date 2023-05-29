@@ -2,3 +2,65 @@
 REFLECT & REFACTOR
 ==================
 
+We come to the final step in our problem 
+solving approach, reflect & refactor: 
+
+1. Understand the problem 
+
+2. Explore concrete examples 
+
+3. Break it down / chunk problem 
+
+4. Solve and simplify
+
+5. Reflect & refactor 
+
+It's always tempting to call it good once a solution 
+is working the way it must, but this final step is 
+critical to improving your productivity and problem 
+solving capability 
+
+In a lot of jobs and projects, the bottom line is:
+'Does the code work?'. Is it always performing and 
+providing a solution to a given problem? Yes? At this stage 
+many developers will call it good and move on without 
+reflecting and refactoring.
+
+Look at the code, component by component, line 
+by line
+
+What looks excellent?
+
+What looks like it can or should be improved?
+
+Did you comment everything out correctly?
+
+Can the variable or naming conventions be improved?
+
+Would other developers who've never seen 
+your code be able to read and digest what's going 
+on seamlessly? 
+
+Many will just be concerned with efficiency, but a 
+balance between purely efficient code and well documented 
+and clean code is net positive for any code base 
+
+And in an interview setting, asking yourself the 
+following questions: 
+
+Can we check and verify the result? 
+
+Can we derive the result differently? 
+
+Can we understand what's happening at a glance? 
+
+Can the method used be utilized or some or other problems? 
+
+Can the performance of the code be improved? Time 
+and space complexity? 
+
+Can it be refactored? 
+
+How do you think other developers may tackle this 
+same problem? 
+
