@@ -49,3 +49,10 @@ function charCount(str) {
 }
 console.log(charCount("Hello World"));
 console.log(1);
+
+// $ node 03_Problem_Solving_Approach/07_SolveSimplify.js
+// { H: 1, e: 1, l: 3, o: 2, ' ': 1, W: 1, r: 1, d: 1 }
+
+console.log(charCount("Luke Sorrenti"));
+
+{ L: 1, u: 1, k: 1, e: 2, ' ': 1, S: 1, o: 1, r: 2, n: 1, t: 1, i: 1 }
