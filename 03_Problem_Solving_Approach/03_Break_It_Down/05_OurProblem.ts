@@ -104,7 +104,7 @@
 // Now let's go over it again and really think about 
 // how to implement the logic
 
- function charCount(str){
+ export function charCount(str){
     // start simple: 
 
     //maybe do a check 

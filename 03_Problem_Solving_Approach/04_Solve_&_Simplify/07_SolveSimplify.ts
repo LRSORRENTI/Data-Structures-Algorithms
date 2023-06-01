@@ -38,7 +38,7 @@ returns counts of each character
 // }
 // console.log(charCount("Hello World"))
 // console.log(1)
-function charCount(str: string): { [char: string]: number } {
+export function charCount(str: string): { [char: string]: number } {
     let result: { [char: string]: number } = {};
     
     for (let i = 0; i < str.length; i++) {

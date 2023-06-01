@@ -121,10 +121,10 @@ certain edge cases in more complex code, is crucial
 
 */
 
- function charCount(str: string){
-    return str;
-}
+//  function charCount(str: string){
+//     return str;
+// }
 // charCount(22)
 // charCount(null)
 
-charCount('hello')
+// charCount('hello')
