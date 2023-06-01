@@ -1,0 +1,40 @@
+================
+SECTION OVERVIEW
+================
+
+How to improve? 
+
+1. Devise a gameplan for tackling a problem
+
+2. Master common problem solving patterns
+
+
+This section focuses on common patterns to utilize 
+when confronted with challenging problems 
+
+=========
+PATTERNS: 
+=========
+
+- Frequency Counter 
+
+- Multiple Pointers 
+
+- Sliding Window 
+
+- Divide and Conquer
+
+- Dynamic Programming 
+
+- Greedy Algorithms 
+
+- Backtracking 
+
+- And more!
+
+
+All of the above are different strategies to implement 
+in your code, strategies to assist you in your 
+problem solving capability
+
+

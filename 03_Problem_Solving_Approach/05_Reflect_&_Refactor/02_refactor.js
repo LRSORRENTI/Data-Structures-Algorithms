@@ -97,3 +97,17 @@ var isAlphaNumeric = function (char) {
 };
 // So above in our better charCount we can refactor!
 betterCharCount("hello");
+
+// $ node 02_refactor.js 
+// {} line 46
+// { h: 1 } line 73
+// { h: 1 } Line 82
+// { h: 1, e: 1 } line 73
+// { h: 1, e: 1 } Line 82
+// { h: 1, e: 1, l: 1 } line 73
+// { h: 1, e: 1, l: 1 } Line 82
+// { h: 1, e: 1, l: 2 } line 73
+// { h: 1, e: 1, l: 2 } Line 82
+// { h: 1, e: 1, l: 2, o: 1 } line 73
+// { h: 1, e: 1, l: 2, o: 1 } Line 82
+// { h: 1, e: 1, l: 2, o: 1 } line 84
