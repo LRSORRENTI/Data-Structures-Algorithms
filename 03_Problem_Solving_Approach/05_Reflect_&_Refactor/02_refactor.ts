@@ -28,3 +28,40 @@ export function charCount(string){
       }
       return obj;
 }
+
+// So the above works, if we finished this problem 
+// in an interview setting, the main points our 
+// interviewer may look at are: 
+
+// 1. The for loop, for loops have their use cases 
+//     but in today's landscape a for of loop so 
+//     we don't need to work with 'i' b/c with 
+//     a 'for of' loop on a string, it gives us 
+//     each character immediately
+
+
+// let's refactor!
+const betterCharCount = (str) => {
+    let obj = {};
+    for(let char of str){
+        // now we can eliminate the 
+        // str[i].toLowerCase from above 
+        char = char.toLowerCase()
+        // now let's also refactor that if statement
+        // block of code
+        if(/[a-z0-9]/.test(char)) {
+            obj[char] = ++obj[char] || 1
+            // what the above does is it takes 
+            // a character from the object, and 
+            // if true, add one to it, else initialize 
+            // to 1 
+        }
+        // one thing to keep in mind is that 
+        // REGEX check we have above, REGEX is cool
+        // especially when needing to check for 
+        // alpha-numeric values, BUT the caveat is 
+        // that REGEX performance is variable, it's not 
+        // a constant, depending on the environment, 
+        // and the browser 
+    }
+}
