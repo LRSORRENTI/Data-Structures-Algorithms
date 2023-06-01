@@ -55,4 +55,4 @@ console.log(1);
 
 console.log(charCount("Luke Sorrenti"));
 
-{ L: 1, u: 1, k: 1, e: 2, ' ': 1, S: 1, o: 1, r: 2, n: 1, t: 1, i: 1 }
+// { L: 1, u: 1, k: 1, e: 2, ' ': 1, S: 1, o: 1, r: 2, n: 1, t: 1, i: 1 }

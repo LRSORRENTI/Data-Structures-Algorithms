@@ -1,0 +1,66 @@
+=================
+SOLVE OR SIMPLIFY
+=================
+
+We've learned the first three steps in our 
+problem solving approach: 
+
+1. Fully understand the problem you're solving 
+
+2. Use concrete examples to help map out the problem 
+
+3. Break the problem down aka CHUNK it
+
+Now our next step is: 
+
+4. Solve and/or simplify!
+
+If we can't solve our problem yet that's ok, we 
+then simplify the problem, if there's a certain 
+aspect of a given problem that's giving you a hard time 
+
+Put that difficult part of the problem on the 
+back-burner for a bit, and focus on making sure 
+the parts of the problem you can solve are good 
+to go, don't spend the entire time stressing 
+about the really confounding aspect of a given 
+problem, you can get to it later, focus on 
+the big picture
+
+Even if you can recognize that part of a problem, 
+especially in a coding interview, that you know 
+you're likely to get stuck on, don't fret
+
+Focus on the aspects of the problem you are confident 
+in solving, start coding, keep brainstorming, but 
+don't be so overwhelmed that you don't code 
+anything at all because you think you may not 
+solve the problem correctly 
+
+Often in coding interviews, the interviewer really 
+wants you to showcase the approach you take 
+when looking and solving difficult problems, 
+getting it wrong or not finishing isn't the end 
+of the world, what matters is your attitude and 
+approach to solving tough problems 
+
+========
+SIMPLIFY
+========
+
+- Find the core difficulty in what you're trying to 
+  do
+
+- Temporarily ignore that difficulty
+
+- Write a simplified solution, and it's often 
+  in this step, you can gain insight to how to 
+  finish the next step 
+
+- Then incorporate that difficulty back in 
+
+Let's return to our original example: 
+
+Write a function that takes in a string and 
+returns counts of each character in the string 
+

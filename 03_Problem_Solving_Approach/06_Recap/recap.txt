@@ -1,0 +1,50 @@
+============
+MODULE RECAP
+============
+
+When dealing with any problem in life, doesn't even 
+need to be programming related, remember the steps 
+we learned here: 
+
+1. Understand the problem in it's entire scope, 
+   clarify the problem, make sure you have a 
+   foundational understanding before writing any 
+   code at all, nothing worse than spending an 
+   hour solving a given problem the wrong way because 
+   you didn't take the necessary time to fully grasp 
+   what the problem actually is, ask the interviewer, 
+   ask other people, different opinions on problems 
+   are invaluable!
+
+2. Explore concrete examples, understand the I/O of 
+   the problem, the edge cases, errors, invalid 
+   inputs 
+
+3. Break the problem down! Chunk the problem down 
+   into a set of steps, this is crucial in 
+   interviews. That way if you run out of time you 
+   can articulate and show the framework / gameplan 
+   you would've executed if there was more time 
+   available, 'This is where I was going, and the 
+   steps I was going to take' 
+
+ 4. Solve, or simplify. Solve the problem, and if 
+    you can't yet solve the entire problem, solve 
+    a component of it, in our previous example, let's 
+    say at the start you don't know how you'll 
+    implement that alpha-numeric check, just 
+    start working on other parts of the solution and 
+    get back to that component of the alpha-numeric
+    check
+
+  5. Look back and refactor, let's say you successfully 
+     finish a problem, don't just call it quits, analyze 
+     your solution, make comments, see where things 
+     can be cleaned up and simplified, refactor!
+
+
+But 1 and 2 are critical! Explain to the interviewer,
+these are the two first steps I take when tasked with 
+a problem, make sure to articulate your thought process
+out loud
+
