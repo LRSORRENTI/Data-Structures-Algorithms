@@ -1,0 +1,18 @@
+==================
+FREQUENCY COUNTERS
+==================
+
+The frequency pattern is where we use an object
+collect values, and their respective frequencies
+
+This can often avoid the need for nested loops 
+or O(n^2) 
+
+Remember O(1) is very good, as is O(log n)
+
+This frequency counts most when you have many pieces 
+of data, many different inputs coming in that 
+need to be checked
+
+This can often avoid the need for nested loops or 
+quadratic: O(n ^ 2) operations with arrays and strings 
