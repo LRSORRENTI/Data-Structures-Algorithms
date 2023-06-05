@@ -23,8 +23,22 @@ Cinema is an anagram with Iceman
 
 'cat' and 'tac' // True 
 
+*/
+
+/*
+Ok so psuedo-code wise how do we do this? 
+
+Well first we need to declare a function called 
+validAnagram, specifying two argument params that are 
+strings: 
+
+function validAnagram(str1: string, str2: string)
+
+
 
 
 
 
 */
+
+
