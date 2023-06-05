@@ -16,3 +16,9 @@ need to be checked
 
 This can often avoid the need for nested loops or 
 quadratic: O(n ^ 2) operations with arrays and strings 
+
+What nakes this a good approach is that it's often O(n) which 
+is better than nested loops which are O(n^2) aka quadratic 
+
+
+
