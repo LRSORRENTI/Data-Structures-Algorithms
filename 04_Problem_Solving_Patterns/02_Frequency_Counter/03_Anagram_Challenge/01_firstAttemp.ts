@@ -51,6 +51,32 @@ a check to ensure the passed in args are indeed strings
 
 
 */
+// function validAnagram(str1: string, str2: string): boolean {
+//     if (typeof str1 != 'string' || typeof str2 != 'string') {
+//         console.log("please pass in a string data type");
+//         return false;
+//     }{
+//     str1 = str1.toLowerCase(); 
+//     str2 = str2.toLowerCase();
+//     console.log(str1, str2);
+//     }
+//     return true;
+// }
+
+// validAnagram("yes", "no");
+
+ /*
+Ok so as of right now we have our type check, if 
+// both args are indeed of type string we make it down 
+to the lowercasing of the strings, probably a way to 
+do both in one line but I'll try that later 
+
+Now what? We have start implementing the actual 
+anagram checking logic, how do I do this?
+
+
+*/
+
 function validAnagram(str1: string, str2: string): boolean {
     if (typeof str1 != 'string' || typeof str2 != 'string') {
         console.log("please pass in a string data type");
@@ -63,4 +89,4 @@ function validAnagram(str1: string, str2: string): boolean {
     return true;
 }
 validAnagram("YES", "NO");
-// validAnagram("yes", 1);
+
