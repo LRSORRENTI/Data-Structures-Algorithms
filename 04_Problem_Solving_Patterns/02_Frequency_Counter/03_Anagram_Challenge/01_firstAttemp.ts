@@ -25,6 +25,8 @@ Cinema is an anagram with Iceman
 
 */
 
+import { type } from "os";
+
 /*
 Ok so psuedo-code wise how do we do this? 
 
@@ -32,13 +34,33 @@ Well first we need to declare a function called
 validAnagram, specifying two argument params that are 
 strings: 
 
-function validAnagram(str1: string, str2: string)
+function validAnagram(str1: string, str2: string){
 
+}
 
+Can also specify the return type, we know we're 
+checking for a boolean
 
+function validAnagram(str1: string, str2: string): boolean{
 
+}
+
+Now what? Probably lowercase the inputs, also have 
+a check to ensure the passed in args are indeed strings 
+ and not any other data types
 
 
 */
-
-
+function validAnagram(str1: string, str2: string): boolean {
+    if (typeof str1 != 'string' || typeof str2 != 'string') {
+        console.log("please pass in a string data type");
+        return false;
+    }{
+    str1 = str1.toLowerCase(); 
+    str2 = str2.toLowerCase();
+    console.log(str1, str2);
+    }
+    return true;
+}
+validAnagram("YES", "NO");
+// validAnagram("yes", 1);
