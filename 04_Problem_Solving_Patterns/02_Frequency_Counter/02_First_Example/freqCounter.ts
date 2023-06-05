@@ -37,7 +37,7 @@ function notIdealSame(arr1: Array<number>, arr2: Array<number>): boolean{
       // this conditional checks the lengths of 
       // arr1, and arr2, if they are not equal return false
       console.log("please pass in two arrays of equal length")
-       return false;
+       return false
      }
      for(let i: number = 0; i < arr1.length; i++){
       // we have a loop that iterates over every element in 
