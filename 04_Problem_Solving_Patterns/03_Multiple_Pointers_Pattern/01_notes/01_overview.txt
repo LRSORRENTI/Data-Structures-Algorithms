@@ -10,3 +10,19 @@ condition
 
 Very efficient for solving problems with 
 minimal space complexity as well!
+
+Basically what it comes down to is that we 
+have some kind of structure, like an array 
+or a string, or even a doubley-linked list
+
+Usually we're searching for something in 
+this array or string, typically a pair of 
+things 
+
+WE use two references, maybe we have one at 
+index 0, and one at the final index and we 
+search in both directions going towards 
+the middle
+
+The main takeaway is that we use multiple points 
+aligned towards a goal
