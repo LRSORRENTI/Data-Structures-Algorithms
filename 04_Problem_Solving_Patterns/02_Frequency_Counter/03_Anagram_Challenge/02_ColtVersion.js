@@ -42,10 +42,13 @@ console.log(anagramCheck('ICEMAN', 'CINEMA'))
 
 node 02_ColtVersion.js 
 console.log(anagramCheck('CAT', 'TAC'))
+// true
 
 console.log(anagramCheck('CAT', 'TAZ'))
+// false
 
 console.log(anagramCheck('ICEMAN', 'CINEMA'))
+// true
 
 
 
