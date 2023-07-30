@@ -69,3 +69,35 @@ let halvedAgain: string[] = ['South Dakota',
 // is 5 items long, it doesn't matter, but as 
 // the input size array grows, linear search is 
 // not ideal
+
+// DIVIDE AND CONQUER
+
+
+function binarySearchOne<T>(sortedArr: T[], element: T): number{
+
+    let start: number = 0;
+
+    let end: number = sortedArr.length -1;
+
+    let middlePointer: number = Math.floor((start + end) / 2);
+
+    while(sortedArr[middlePointer] !== element && start <= end){
+        if(element < sortedArr[middlePointer]){
+             end = middlePointer - 1;
+       } else {
+            start = middlePointer + 1;
+             }
+        middlePointer = Math.floor((start + end) / 2);                
+          }
+       console.log(start, middlePointer, end)
+       if(sortedArr[middlePointer] ===  element){
+        return middlePointer;
+       } else {
+         return -1;
+       }
+       // the above could be refactored: 
+       // return sortedArr[middlePointer] === element ? middle: -1
+}
+
+binarySearchOne(states, "Wisconsin")
+// 56, 57, 58 is logged to the console
