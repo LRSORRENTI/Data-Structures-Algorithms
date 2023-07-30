@@ -177,4 +177,37 @@ binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 28)
 // and middlepointer succeed
 
 
-                
+// But we've got a problem, we don't have any conditional
+// checks if the desiredValue is never found
+
+// If we did binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 50)
+
+// We'd be in trouble, it would loop over and over, 
+// we need to handle the case that the items just 
+// doesn't exist in the array, we'd be out of bounds, 
+// our pointers would now be looping forever checking 
+// to see if undefined === desiredValue which we don't want 
+
+// function binarySearchOne(sortedArr: number[], element: number){
+
+//     let start: number = 0;
+
+//     let end: number = sortedArr.length -1;
+
+//     let middlePointer: number = Math.floor((start + end) / 2);
+
+//     while(sortedArr[middlePointer] !== element){
+//         if(element < sortedArr[middlePointer]){
+//              end = middlePointer - 1;
+//        } else {
+//             start = middlePointer + 1;
+//              }
+//         middlePointer = Math.floor((start + end) / 2);                
+//           }
+//        console.log(start, middlePointer, end)
+//     return middlePointer;
+// }
+
+
+
+// binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 28)
