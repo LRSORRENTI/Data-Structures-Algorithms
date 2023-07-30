@@ -37,11 +37,13 @@ function binarySearch(sortedArr: number[], element: number){
     // the array by adding 0 + the length 
     // of the array, and dividing by twi, it will 
     // also round  down if we get a decimal number
-        console.log(start, middlePointer, end)
+        // console.log(start, middlePointer, end)
         while(sortedArr[middlePointer] !== element){
+            console.log(start, middlePointer, end)
             // so if we're in here we can assumne 
             // the middle pointer is not yet at the 
-            // desired eleement
+            // desired element, we haven't found 
+            // what we're searching for yet
 
             // so we want 15, 15 is greater than the 
             // middle pointer, so we now need to move 
@@ -49,14 +51,35 @@ function binarySearch(sortedArr: number[], element: number){
             // know for sure it's not 2, 5, 6, or 9
             // so we can skip checking those 
             if(element < sortedArr[middlePointer]){
-                // so if our element 
+                // so if our element is less than where 
+                // the pointer is at, we want to move 
+                // the end pointer where the middle 
+                // pointer just was minus 1
+                end = middlePointer - 1;
+
+            } else {
+                // Else means that what we're looking for 
+                // is greater than the middle pointer
+                
+                start = middlePointer + 1;
+
             }
-
-
+                // So at this point the End is still the same 
+                // but if we're looking for 15 in the array below, 
+                // that start pointer moves up one to 13, but 
+                //  we need to recalculate / average the middle:
+                middlePointer = Math.floor((start + end) / 2);
+                // this will give us Math.floor(4 , 7)
+                // since the start pointer is now at 13 aka index 4,
+                
+                console.log(start, middlePointer, end)
         }
         // we'll loop while the middle pointer is not 
         // equal to the element we want
 }
 
-binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 15)
+// binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 15)
 //            S         M              E
+
+
+binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 28)
