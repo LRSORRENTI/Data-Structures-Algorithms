@@ -55,6 +55,23 @@ function binarySearch(sortedArr: number[], element: number){
     // of the array, and dividing by twi, it will 
     // also round  down if we get a decimal number
         // console.log(start, middlePointer, end)
+    
+        // [2, 5, 6, 9, 13, 15, 28, 30]
+  
+        // So right now, for this array, our 
+        // start [0] is 2
+
+        // Our middlepointer (math.floor start + end / 2 )
+        // is floored to array[3] which is 9, middlePointer is 9
+
+
+        // So what we want to do is repeat this process,
+        // where we loop, and select a middle, but first 
+        // we need to add that conditional check, on the 
+        // off chance we got lucky and the middle pointer 
+        // just so happened to land on our desiredValue,
+        // unlikely but the check must always be made for 
+        // that condition 
 
         while(sortedArr[middlePointer] !== element){
             console.log(start, middlePointer, end)
@@ -63,6 +80,21 @@ function binarySearch(sortedArr: number[], element: number){
             // the middle pointer is not yet at the 
             // desired element, we haven't found 
             // what we're searching for yet
+            
+            // If we're looking for the number 5
+            // we need to determine, okay is 9 too big? 
+            // Or is 9 too small? 
+
+            // If too small we only need to keep searching 
+            // from S - E pointers [2, 5, 6] since 
+            // we now know to move the end pointer to 6,
+            
+            // We move end pointer to 6, not 9, since 
+            // if the desired value was 9, we would've 
+            // already returned 
+
+            // and math.floor to find the middle again, 
+            // okay now is 
 
         // binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 15)
             //           S         M              E
@@ -80,6 +112,14 @@ function binarySearch(sortedArr: number[], element: number){
                 // the end pointer where the middle 
                 // pointer just was minus 1
 
+                // This is where the magic happens, if 
+                // the passed in element above is 
+                // less than sortedArr of middlePointer,
+                // we move the end pointer to a new 
+                // location, where middlePointer just was 
+                // but minus one  
+
+
                 end = middlePointer - 1;
 
             } else {
@@ -87,6 +127,11 @@ function binarySearch(sortedArr: number[], element: number){
                 // Else means that what we're looking for 
                 // is greater than the middle pointer
                 
+                // That means we can now move the starting 
+                // pointer up to where middlePointer just 
+                // was but plus one, since that middlePointer
+                // wasn't the desired value
+
                 start = middlePointer + 1;
 
             }
@@ -101,9 +146,11 @@ function binarySearch(sortedArr: number[], element: number){
                 // this will give us Math.floor(4 , 7)
                 // since the start pointer is now at 13 aka index 4,
                 
-                console.log(start, middlePointer, end)
+               
         }
        
+        console.log(start, middlePointer, end)
+        return middlePointer;
         // we'll loop while the middle pointer is not 
         // equal to the element we want
 }
@@ -113,3 +160,21 @@ function binarySearch(sortedArr: number[], element: number){
 
 
 binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 28)
+//            S        M                E  DV 
+// first loop moves since 28 is > 9
+
+            // [ 13, 15, 28, 30]
+              // S   M        E 
+// Next loop runs, since we still didn't find 28,
+// but the pointers move again: 
+
+            // [ 28, 30]
+             //  S   M   E 
+// And now our small pointer has found 
+// the desired value, so the loop breaks 
+// binary searched for the value 28, the middlepointer 
+// also rounds down so technical;y both starting pointer 
+// and middlepointer succeed
+
+
+                
