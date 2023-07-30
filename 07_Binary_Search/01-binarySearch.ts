@@ -81,7 +81,7 @@ function binarySearchOne<T>(sortedArr: T[], element: T): number{
 
     let middlePointer: number = Math.floor((start + end) / 2);
 
-    while(sortedArr[middlePointer] !== element){
+    while(sortedArr[middlePointer] !== element && start <= end){
         if(element < sortedArr[middlePointer]){
              end = middlePointer - 1;
        } else {
@@ -90,7 +90,13 @@ function binarySearchOne<T>(sortedArr: T[], element: T): number{
         middlePointer = Math.floor((start + end) / 2);                
           }
        console.log(start, middlePointer, end)
-    return middlePointer;
+       if(sortedArr[middlePointer] ===  element){
+        return middlePointer;
+       } else {
+         return -1;
+       }
+       // the above could be refactored: 
+       // return sortedArr[middlePointer] === element ? middle: -1
 }
 
 binarySearchOne(states, "Wisconsin")

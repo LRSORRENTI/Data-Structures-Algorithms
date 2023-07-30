@@ -73,7 +73,7 @@ function binarySearch(sortedArr: number[], element: number){
         // unlikely but the check must always be made for 
         // that condition 
 
-        while(sortedArr[middlePointer] !== element){
+        while(sortedArr[middlePointer] !== element && start <= end){
             console.log(start, middlePointer, end)
 
             // so if we're in here we can assumne 
@@ -150,10 +150,17 @@ function binarySearch(sortedArr: number[], element: number){
         }
        
         console.log(start, middlePointer, end)
-        return middlePointer;
+        // We need to add a last check at the end, so 
+        // that if a value isn't in the array return -1
+       if(sortedArr[middlePointer] === element){
+        return  middlePointer
+       } else {
+        console.log(-1)
+            return -1
+         }
+    }
         // we'll loop while the middle pointer is not 
         // equal to the element we want
-}
 
 // binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 15)
 //            S         M              E
