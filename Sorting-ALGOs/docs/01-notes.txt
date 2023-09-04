@@ -1,0 +1,37 @@
+================
+What is sorting?
+================
+
+When we discuss sorting algos, we basically mean 
+taking an array or set of data, and organizing it 
+the way we want with some kind of order 
+
+- Sort numbers in ascending or descending order 
+
+- Sort data alphabetically 
+
+- Sort movies based on release year or revenue 
+
+===============
+Why learn this?
+===============
+
+- Sorting is incredibly common across all programming 
+  domains, it's a great tool to have 
+
+- There are many ways to sort data, some have 
+  advantages over another, sometimes heap sort is 
+  faster than insertion sort, and vice versa, and this is 
+  true for all of the sorting algos, depending on 
+  the task, one may be better than another 
+
+==========
+Objectives
+==========
+
+- Learn and implement Bubble Sort
+
+- Learn and implement Insertion Sort
+
+- Learn and implement Selection Sort
+

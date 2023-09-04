@@ -1,0 +1,13 @@
+=============
+BINARY SEARCH
+=============
+
+- Binary search is a fast way to search, this is 
+  due to binary search eliminating half of the 
+  remaining elements at a given time, instead of 
+  just one by one like in linear search 
+
+- CAVEAT - BINARY SEARCH ONLY WORKS ON SORTED 
+  ARRAYS!!
+
+
