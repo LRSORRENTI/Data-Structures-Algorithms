@@ -1,0 +1,37 @@
+===========
+Bubble Sort
+===========
+
+Bubble sort isn't the most efficient, but generally 
+it's not implemented all the time
+
+But it's a good algorithm learn, especially since other 
+algos improve upon it 
+
+It's a sorting algorithm where the largest 
+values in an array bubble up to the top, ascending numeric 
+order 
+
+In essence we loop through an array, and we check each 
+time if the current value is greater than the index 
+we're checking, we swap and use that value 
+
+Is it larger? Swap, not larger? Don't swap 
+
+So with every iteration, the large values will bubble 
+up to the top
+
+This algorithm will depend on the iterations themselves, 
+it won't sort everything the first pass, but with 
+every repeat of the loop, the large values slowly bubble 
+up 
+
+And with each pass we have one less item in the array we 
+need to check, if we have an array of: 
+
+[2, 1, 5, 4]
+
+once after that first pass we have 5 at the last index, so 
+we don't need to check it again, the array indexes we 
+need to check will get progressively smaller as more items 
+or values become sorted 
