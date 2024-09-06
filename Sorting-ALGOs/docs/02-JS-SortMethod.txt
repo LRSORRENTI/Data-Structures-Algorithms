@@ -1,0 +1,74 @@
+========
+JS Sort 
+========
+
+JavaScript has a sort method, but it doesn't always 
+work as expected 
+
+['xylophone', 'apple', 'orange', 'up'].sort() 
+
+['apple', 'orange', 'up', 'xylophone']
+
+But with nums: 
+
+[6, 4, 15, 10].sort();
+
+[10, 15, 4, 6]
+
+This is because JS default sort method sort order 
+is according to string unicode code points 
+
+But if we pass in args to sort, we can make sort 
+behave the way we'd like: 
+
+sort(a, b) 
+
+The comparator looks at pairs of alements a and b,
+determines the sort order based on a return value, 
+
+if it returns negative, a comes before b
+
+if it returns positive, a comes after b
+
+if it returns 0, a and b are the same as far as 
+the sort is concerned 
+
+To fix our number sort above: 
+
+function numberCompare(num1, num2){
+    return num1 - num2;
+}
+
+[6, 4, 15, 10].sort(numberCompare);
+[4, 6, 10, 15] is returned 
+
+but if we change it to num2 - num1: 
+
+function numberCompare(num1, num2){
+    return num2 - num1;
+}
+
+We see it descending order: 
+[6, 4, 15, 10].sort(numberCompare);
+[15, 10, 6, 4] is returned 
+
+We can do the same for strings, 
+
+function compareLen(str1, str2){
+    return str1.length - str2.length;
+}
+
+['Sorrenti', 'Luke', 'data structures', 'algorithms']
+.sort(compareLen);
+['Luke', 'Sorrenti', 'algorithms', 'data structures']
+
+And to descend: 
+
+function compareLen(str1, str2){
+    return str2.length - str1.length;
+}
+
+['Sorrenti', 'Luke', 'data structures', 'algorithms']
+.sort(compareLen);
+
+['data structures', 'algorithms', 'Sorrenti', 'Luke']
