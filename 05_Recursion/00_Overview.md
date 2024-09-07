@@ -6,6 +6,8 @@ Or **RECURSION**
 
 Recursion is a process or function that calls itself until a base case is satisfied
 
+Every recursive function needs a base case, this defines when to stop the recursive function call
+
 Sometimes it can be a more effective alternative to iteration, and in this section we'll learn how to identify problems that would be good candidates for recursion to solve
 
 ## The Call Stack
